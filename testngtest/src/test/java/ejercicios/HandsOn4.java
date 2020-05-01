@@ -27,7 +27,7 @@ public class HandsOn4 {
             log.click();
             Thread.sleep(45000);
             WebElement searchbox = myDriver.findElement(By.name("q"));
-            searchbox.findElement(//*[@name="q"]);
+            searchbox.findElement(By.name("q"));
             searchbox.sendKeys("QA Minds");
             searchbox.submit();
             Thread.sleep(10000);
